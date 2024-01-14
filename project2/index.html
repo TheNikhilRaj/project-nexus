@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Delicious Bites</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <div class="restaurant-intro">
+            <h2>Welcome to Delicious Bites</h2>
+            <p>Experience the finest culinary delights in a cozy ambiance.</p>
+        </div>
+
+        <div class="login-signup-forms">
+            <div class="form-container">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <div class="form-container">
+                <h2>Signup</h2>
+                <form id="signupForm">
+                    <label for="signupUsername">Username:</label>
+                    <input type="text" id="signupUsername" name="signupUsername" required>
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" name="signupPassword" required>
+                    <button type="submit">Signup</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bites</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
